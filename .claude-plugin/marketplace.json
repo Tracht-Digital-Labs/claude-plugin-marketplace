@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "claude-plugin-marketplace",
-  "description": "All Claude Code plugins by Tracht Digital Solutions, collected automatically from their source repositories.",
+  "description": "All Claude Code plugins by Tracht Digital Labs, collected automatically from their source repositories.",
   "owner": {
-    "name": "Tracht Digital Solutions",
-    "url": "https://github.com/Tracht-Digital-Solutions"
+    "name": "Tracht Digital Labs",
+    "url": "https://github.com/Tracht-Digital-Labs"
   },
   "plugins": [
     {
@@ -22,7 +22,7 @@
       ],
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/Tracht-Digital-Solutions/gitea-claude-plugin.git",
+        "url": "https://github.com/Tracht-Digital-Labs/gitea-claude-plugin.git",
         "path": "plugin",
         "ref": "stable"
       }

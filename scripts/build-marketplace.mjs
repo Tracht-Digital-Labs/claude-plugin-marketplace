@@ -20,8 +20,8 @@ const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 const MARKETPLACE_META = {
   $schema: 'https://json.schemastore.org/claude-code-marketplace.json',
   name: 'claude-plugin-marketplace',
-  description: 'All Claude Code plugins by Tracht Digital Solutions, collected automatically from their source repositories.',
-  owner: { name: 'Tracht Digital Solutions', url: 'https://github.com/Tracht-Digital-Solutions' },
+  description: 'All Claude Code plugins by Tracht Digital Labs, collected automatically from their source repositories.',
+  owner: { name: 'Tracht Digital Labs', url: 'https://github.com/Tracht-Digital-Labs' },
 };
 
 async function gh(apiPath) {
